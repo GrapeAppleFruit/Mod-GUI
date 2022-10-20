@@ -1,0 +1,9 @@
+name: Gui
+version: '${project.version}'
+main: catchlol.plugin.Main
+api-version: 1.19
+commands:
+  open:
+    description:
+    usage: /<command>
+    permission: gui.open
